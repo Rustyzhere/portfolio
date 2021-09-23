@@ -80,11 +80,7 @@ function App() {
                 </a>
               </li>
             </ul>
-            {/* <a
-              className='btn btn-sm btn-primary mr-3'
-              href='https://facebook.com/rustylsimmons'>
-              <span className='fas fa-user-plus mr-1'></span> Follow
-            </a>
+            {/* 
             <a
               className='btn btn-sm btn-primary'
               href='https://facebook.com/rustylsimmons'>
@@ -93,7 +89,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='App-header2'></div>
+      <div className='footer'>
+        <footer></footer>
+      </div>
     </div>
   );
 }
