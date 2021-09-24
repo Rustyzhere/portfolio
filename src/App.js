@@ -1,4 +1,6 @@
-import logo from "./rustypic.jpg";
+import logo from "./img/rustypic.jpg";
+import rls from "./img/rls.png";
+import mmr from "./img/mmr.png";
 import "./App.css";
 import "./neumorphism.css";
 
@@ -94,20 +96,21 @@ function App() {
         </div>
       </div>
       <div className="card-deck justify-content-center">
-        <div className="row">
+        <div className="row p-5">
           <div className="col-12 col-md-6">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
-                  src="https://rustylsimmons.com"
-                  className="card-img-top rounded-top"
+                  src={rls}
+                  className="card-img-top rounded"
                   alt="This site!"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body pt-2 pb-2">
                 <h3 className="h5 card-title mt-3">My portfolio</h3>
                 <p className="card-text">
-                  This site is built by myself and hosted by Infinty Free
+                  This site is built with javascript, React and neumorphic UI,
+                  and is hosted by Infinty Free
                 </p>
                 <a
                   href="https://rustylsimmons.com"
@@ -121,19 +124,16 @@ function App() {
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
-                  src="https://marymackandrusty.com"
+                  src={mmr}
                   className="card-img-top rounded"
                   alt="My wedding website"
                 />
               </div>
-              <div className="card-body pt-2">
-                <div className="media d-flex align-items-center justify-content-between">
-                  <div className="d-flex align-items-center"></div>
-                </div>
+              <div className="card-body pt-2 pb-2">
                 <h3 className="h5 card-title mt-3">Wedding website</h3>
                 <p className="card-text">
                   This site was created using Visual Studio using the .NET
-                  framework, javascript and React.
+                  framework, javascript and React. AWS Hosting
                 </p>
                 <a
                   href="https://americandreams.ltd"
