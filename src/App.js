@@ -1,12 +1,8 @@
 import logo from "./img/rustypic.jpg";
-import rls from "./img/rls.png";
+import rls from "./img/rls2.png";
 import mmr from "./img/mmr.png";
 import "./App.css";
 import "./neumorphism.css";
-
-// const Rusty = "https://rustylsimmons.com";
-// const MMack = "https://marymackandrusty.com";
-// const Store = "https://americandreams.ltd";
 
 function App() {
   return (
@@ -95,9 +91,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="card-deck justify-content-center">
-        <div className="row p-5">
-          <div className="col-12 col-md-6">
+      <div className="card-deck">
+        <div className="row p-5 justify-content-center">
+          <div className="col-12 col-md-4">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
@@ -114,13 +110,13 @@ function App() {
                 </p>
                 <a
                   href="https://rustylsimmons.com"
-                  className="btn btn-primary btn-sm">
+                  className="btn btn-primary btn-block mb-2">
                   This way
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-4">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
@@ -137,7 +133,7 @@ function App() {
                 </p>
                 <a
                   href="https://americandreams.ltd"
-                  className="btn btn-primary btn-sm">
+                  className="btn btn-primary btn-block mb-2">
                   Over here
                 </a>
               </div>
