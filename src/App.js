@@ -25,7 +25,7 @@ function App() {
           </div>
           <div className="card-body pb-5 justify-content-center">
             <h3 className="h4 mb-2">Rusty L Simmons</h3>
-            <h2 className="h5 mb-2">Archaeologist, Web Developer</h2>
+            <h2 className="h5 mb-2">Archaeologist, Web/Platform Developer</h2>
 
             <span className="h6 font-weight-normal text-gray mb-3">
               rustylsimmons@gmail.com
@@ -33,7 +33,7 @@ function App() {
             <ul className="list-unstyled d-flex justify-content-center mt-3 mb-4 pl-3">
               <li>
                 <a
-                  href="https://https://www.facebook.com/rustyzhere"
+                  href="https://www.facebook.com/rustyzhere"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="facebook social link"
@@ -43,7 +43,7 @@ function App() {
               </li>
               <li>
                 <a
-                  href="https://https://twitter.com/RustyLSimmons"
+                  href="https://twitter.com/RustyLSimmons"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="twitter social link"
@@ -73,7 +73,7 @@ function App() {
               </li>
               <li>
                 <a
-                  href="https://https://www.linkedin.com/in/rusty-l-simmons-2b46431a"
+                  href="https://www.linkedin.com/in/rusty-l-simmons-2b46431a"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="dribbble social link"
@@ -132,7 +132,7 @@ function App() {
                   framework, javascript and React. AWS Hosting
                 </p>
                 <a
-                  href="https://americandreams.ltd"
+                  href="https://marymackandrusty.com"
                   className="btn btn-primary btn-block mb-2">
                   Over here
                 </a>
