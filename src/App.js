@@ -1,6 +1,7 @@
 import logo from "./img/rustypic.jpg";
 import rls from "./img/rls2.png";
 import mmr from "./img/mmr.png";
+import adl from "./img/adl.png";
 import "./App.css";
 import "./neumorphism.css";
 import React from "react";
@@ -83,7 +84,7 @@ function App() {
       </div>
       <div className="card-deck">
         <div className="row p-5 justify-content-center">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-5 p-2">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
@@ -106,7 +107,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-5 p-2">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
@@ -116,15 +117,34 @@ function App() {
                 />
               </div>
               <div className="card-body pt-2 pb-2">
-                <h3 className="h5 card-title mt-3">Wedding website</h3>
+                <h3 className="h5 card-title mt-3">My wedding website</h3>
                 <p className="card-text">
-                  This site was created using Visual Studio using the .NET
-                  framework, javascript and React. AWS Hosting
+                  This site was created using javascript and React in Visual
+                  Studio with the .NET framework, hosted by AWS
                 </p>
                 <a
                   href="https://marymackandrusty.com"
                   className="btn btn-primary btn-block mb-2">
                   Over here
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-5 p-2">
+            <div className="card bg-primary border-light shadow-soft">
+              <div className="card-header p-3">
+                <img src={adl} className="card-img-top rounded" alt="My shop" />
+              </div>
+              <div className="card-body pt-2 pb-2">
+                <h3 className="h5 card-title mt-3">My Shop</h3>
+                <p className="card-text">
+                  This site was created using Liquid template language and is
+                  powered by the shopify platform
+                </p>
+                <a
+                  href="https://marymackandrusty.com"
+                  className="btn btn-primary btn-block mb-2">
+                  Shop now
                 </a>
               </div>
             </div>
