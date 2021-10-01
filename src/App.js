@@ -3,15 +3,12 @@ import rls from "./img/rls2.png";
 import mmr from "./img/mmr.png";
 import "./App.css";
 import "./neumorphism.css";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className='App-logo' alt='glamorshot' />
-        <h1 className='App-link'>Rusty L Simmons</h1>
-        <p>rustyLsimmons@gmail.com</p> */}
-      </header>
+      <header className="App-header"></header>
       <div className="profile-card mb-5">
         <div className="card bg-primary shadow-inset border-light text-center">
           <div className="card-header">
@@ -26,7 +23,6 @@ function App() {
           <div className="card-body pb-5 justify-content-center">
             <h3 className="h4 mb-2">Rusty L Simmons</h3>
             <h2 className="h5 mb-2">Archaeologist, Web/Platform Developer</h2>
-
             <span className="h6 font-weight-normal text-gray mb-3">
               rustylsimmons@gmail.com
             </span>
@@ -35,59 +31,53 @@ function App() {
                 <a
                   href="https://www.facebook.com/rustyzhere"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="facebook social link"
                   className="icon icon-xs icon-facebook mr-3">
-                  <span className="fab fa-facebook-f"></span>
+                  <span className="fab fa-facebook-f" />
                 </a>
               </li>
               <li>
                 <a
                   href="https://twitter.com/RustyLSimmons"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="twitter social link"
                   className="icon icon-xs icon-twitter mr-3">
-                  <span className="fab fa-twitter"></span>
+                  <span className="fab fa-twitter" />
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.instagram.com/rustyzhere/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="slack social link"
                   className="icon icon-xs icon-slack mr-3">
-                  <span className="fab fa-instagram"></span>
+                  <span className="fab fa-instagram" />
                 </a>
               </li>
               <li>
                 <a
                   href="https://snapchat.com/add/imdigginu"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="dribbble social link"
                   className="icon icon-xs icon-dribbble mr-3">
-                  <span className="fab fa-snapchat"></span>
+                  <span className="fab fa-snapchat" />
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/rusty-l-simmons-2b46431a"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="dribbble social link"
                   className="icon icon-xs icon-dribbble mr-3">
-                  <span className="fab fa-linkedin"></span>
+                  <span className="fab fa-linkedin" />
                 </a>
               </li>
             </ul>
-            {/* 
-            <a
-              className='btn btn-sm btn-primary'
-              href='https://facebook.com/rustylsimmons'>
-              Resume'
-            </a> */}
           </div>
         </div>
       </div>
@@ -142,7 +132,7 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        <footer></footer>
+        <footer />
       </div>
     </div>
   );
