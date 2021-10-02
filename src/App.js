@@ -25,7 +25,9 @@ function App() {
             <h3 className="h2 mb-2 font-weight-bold">Rusty L Simmons</h3>
             <h2 className="h4 mb-2">Archaeologist, Web/Platform Developer</h2>
             <span className="h5 font-weight-normal text-gray mb-3">
-              rustylsimmons@gmail.com
+              <a href="mailto:rustylsimmons@gmail.com?subject=Hey there!&body=Very impressive, I like your style!">
+                rustylsimmons@gmail.com
+              </a>
             </span>
             <ul className="list-unstyled d-flex justify-content-center mt-3 mb-4">
               <li>
