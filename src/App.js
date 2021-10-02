@@ -22,19 +22,19 @@ function App() {
             </div>
           </div>
           <div className="card-body pb-5 justify-content-center">
-            <h3 className="h4 mb-2">Rusty L Simmons</h3>
-            <h2 className="h5 mb-2">Archaeologist, Web/Platform Developer</h2>
-            <span className="h6 font-weight-normal text-gray mb-3">
+            <h3 className="h2 mb-2 font-weight-bold">Rusty L Simmons</h3>
+            <h2 className="h4 mb-2">Archaeologist, Web/Platform Developer</h2>
+            <span className="h5 font-weight-normal text-gray mb-3">
               rustylsimmons@gmail.com
             </span>
-            <ul className="list-unstyled d-flex justify-content-center mt-3 mb-4 pl-3">
+            <ul className="list-unstyled d-flex justify-content-center mt-3 mb-4">
               <li>
                 <a
                   href="https://www.facebook.com/rustyzhere"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="facebook social link"
-                  className="icon icon-xs icon-facebook mr-3">
+                  className="icon icon-md icon-facebook m-3">
                   <span className="fab fa-facebook-f" />
                 </a>
               </li>
@@ -44,7 +44,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="twitter social link"
-                  className="icon icon-xs icon-twitter mr-3">
+                  className="icon icon-md icon-twitter m-3">
                   <span className="fab fa-twitter" />
                 </a>
               </li>
@@ -54,7 +54,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="slack social link"
-                  className="icon icon-xs icon-slack mr-3">
+                  className="icon icon-md icon-slack m-3">
                   <span className="fab fa-instagram" />
                 </a>
               </li>
@@ -64,7 +64,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="dribbble social link"
-                  className="icon icon-xs icon-dribbble mr-3">
+                  className="icon icon-md icon-dribbble m-3">
                   <span className="fab fa-snapchat" />
                 </a>
               </li>
@@ -74,7 +74,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="dribbble social link"
-                  className="icon icon-xs icon-dribbble mr-3">
+                  className="icon icon-md icon-dribbble m-3">
                   <span className="fab fa-linkedin" />
                 </a>
               </li>
@@ -84,7 +84,7 @@ function App() {
       </div>
       <div className="card-deck">
         <div className="row p-5 justify-content-center">
-          <div className="col-12 col-md-5 p-2">
+          <div className="col-12 col-md-4 p-2">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img
@@ -107,8 +107,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-5 p-2">
-            <div className="card bg-primary border-light shadow-soft">
+          <div className="col-12 col-md-4 p-2">
+            <div className="card bg-primary border-light shadow-soft flex">
               <div className="card-header p-3">
                 <img
                   src={mmr}
@@ -130,7 +130,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-5 p-2">
+          <div className="col-12 col-md-4 p-2">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
                 <img src={adl} className="card-img-top rounded" alt="My shop" />
