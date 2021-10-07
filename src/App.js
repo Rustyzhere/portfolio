@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <div className="profile-card mb-5">
+      <div className="profile-card">
         <div className="card bg-primary shadow-inset border-light text-center">
           <div className="card-header">
             <div className="profile-image bg-primary shadow-inset border border-light rounded mx-auto p-3 mt-n6">
@@ -86,6 +86,9 @@ function App() {
       </div>
       <div className="card-deck">
         <div className="row p-5 justify-content-center">
+          <div>
+            <h3 className="h-2 pb-4 font-weight-bold">Projects</h3>
+          </div>
           <div className="col-12 col-md-4 p-2">
             <div className="card bg-primary border-light shadow-soft">
               <div className="card-header p-3">
