@@ -147,7 +147,7 @@ function App() {
                   powered by the shopify platform
                 </p>
                 <a
-                  href="https://marymackandrusty.com"
+                  href="https://americandreams.ltd"
                   className="btn btn-primary btn-block mb-2">
                   Shop now
                 </a>
